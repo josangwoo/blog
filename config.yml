@@ -49,18 +49,19 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        enabled: true # needs to be explicitly set
+        title: Sangwoo Jo | 기록 블로그
+        subtitle: "배우고 경험한 것들을 기록하는 장소입니다."
+        imageUrl: /jerry.jpg
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
         buttons:
             - name: Posts
               url: posts
-            - name: Tags
-              url: tags
+            - name: Categories
+              url: categories
+              
 
     # home-info mode
     homeInfoParams:
@@ -92,14 +93,22 @@ params:
         keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
+        - identifier: posts
+          name: Posts
+          url: /posts/
           weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
+        - identifier: categories
+          name: Categories
+          url: /categories/
           weight: 20
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 30
+        - identifier: tags
+          name: Tags
+          url: /tags/
+          weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
