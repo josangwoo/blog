@@ -1,5 +1,5 @@
 baseURL: "https://josangwoo.github.io"
-title: ExampleSite
+title: Sangwoo's note
 paginate: 5
 theme: PaperMod
 
@@ -64,8 +64,8 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Title: "기록을 위한 곳 \U0001F44B"
+        Content: 공부하고 경험한 내용을 글로 담기 위함
 
     socialIcons:
         - name: twitter
