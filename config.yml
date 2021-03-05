@@ -43,8 +43,8 @@ params:
         safari_pinned_tab: "<link / abs url>"
 
     label:
-        text: "Home"
-        icon: /apple-touch-icon.png
+        text: "Sangwoo's note"
+        icon: 
         iconHeight: 35
 
     # profile-mode
