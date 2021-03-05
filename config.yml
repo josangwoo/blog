@@ -50,8 +50,11 @@ params:
     # profile-mode
     profileMode:
         enabled: true # needs to be explicitly set
-        title: Sangwoo Jo | 기록 블로그
-        subtitle: "배우고 경험한 것들을 기록하는 장소입니다."
+        title: Sangwoo Jo 
+        subtitle: |
+            "배우고 경험한 것들을 기록하는 곳"
+
+            프로그래밍, 경영, 스타트업, 독서
         imageUrl: /jerry.jpg
         imageWidth: 120
         imageHeight: 120
