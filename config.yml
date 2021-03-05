@@ -64,16 +64,12 @@ params:
 
     # home-info mode
     homeInfoParams:
-        Title: "기록을 위한 곳 \U0001F44B"
+        Title: "기록을 위한 곳"
         Content: 공부하고 경험한 내용을 글로 담기 위함
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/josangwoo"
 
     analytics:
         google:
@@ -104,10 +100,6 @@ menu:
           name: tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
-          weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
