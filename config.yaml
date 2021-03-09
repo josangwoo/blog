@@ -26,7 +26,7 @@ params:
     favicon:
 
     footer:
-        since: 2020
+        since: 2021
         customText:
 
     dateFormat:
@@ -37,6 +37,7 @@ params:
         emoji: 
         subtitle: |
             배우고 경험한 것들을 기록하는 곳.
+
             프로그래밍 | 경영 | 스타트업 | 책
         avatar:
             local: true

@@ -4,6 +4,6 @@ layout: "categories"
 slug: "categories"
 menu:
     main:
-        weight: -50
+        weight: -80
         pre: "categories"
 ---
