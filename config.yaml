@@ -2,7 +2,7 @@ baseurl: https://sangwoojo.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: Sangwoo Jo
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -12,7 +12,7 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn
-DefaultContentLanguage: en
+DefaultContentLanguage: ko
 
 permalinks:
     post: /p/:slug/
@@ -34,11 +34,13 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 
+        subtitle: |
+            배우고 경험한 것들을 기록하는 곳.
+            프로그래밍 | 경영 | 스타트업 | 책
         avatar:
             local: true
-            src: img/avatar.png
+            src: img/jerry.png
 
     article:
         math: false
