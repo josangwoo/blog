@@ -5,7 +5,7 @@ paginate: 5
 title: Sangwoo Jo
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: josangwoo-github-io
 
 # GA Tracking ID
 googleAnalytics:
@@ -49,7 +49,6 @@ params:
     comments:
         enabled: true
         provider: disqus
-        disqusShortname: sangwoo_jo
 
         utterances:
             repo:
