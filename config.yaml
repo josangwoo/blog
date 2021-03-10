@@ -2,7 +2,7 @@ baseurl: https://sangwoojo.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Sangwoo Jo
+title: Sangwoo's Note
 
 # Change it to your Disqus shortname before using
 disqusShortname: josangwoo-github-io
@@ -12,7 +12,7 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn
-DefaultContentLanguage: ko
+DefaultContentLanguage: en
 
 permalinks:
     post: /p/:slug/
@@ -23,7 +23,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: /static/favicon.ico
 
     footer:
         since: 2021
@@ -84,7 +84,7 @@ params:
         opengraph:
             enabled: false
             local: false
-            src:
+            src: 
 
     colorScheme:
         # Display toggle
@@ -109,6 +109,12 @@ menu:
           url: /
           weight: -100
           pre: home
+
+        - identifier: categories
+          name: Categories
+          url: /categories/
+          weight: -80
+          pre: categories
 
 related:
     includeNewer: true
