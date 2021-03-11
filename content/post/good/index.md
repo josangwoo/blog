@@ -1,15 +1,15 @@
 +++
 author = "Sangwoo Jo"
-title = "테스트입니다."
+title = "huhu"
 date = "2021-03-11"
-description = ""
+description = "hihi"
 categories = [
     "Notice"
 ]
 tags = [
-    "blog",
+    "blog"
 ]
-image = "solen-feyissa-T3xbF8KVOC0-unsplash.jpg"
+image = "jerry.png"
 +++
 
 테스트입니다.

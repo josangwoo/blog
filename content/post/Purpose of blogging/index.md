@@ -7,7 +7,7 @@ categories = [
     "Notice"
 ]
 tags = [
-    "blog",
+    "blog"
 ]
 image = "annie-spratt-TIJyMHphhAo-unsplash.jpg"
 +++
