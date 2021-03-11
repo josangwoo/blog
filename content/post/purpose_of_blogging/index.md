@@ -9,7 +9,7 @@ categories = [
 tags = [
     "blog"
 ]
-image = "annie-spratt-TIJyMHphhAo-unsplash.jpg"
+image = "pink.jpg"
 +++
 
 테스트입니다.
